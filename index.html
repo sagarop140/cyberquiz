@@ -9,7 +9,6 @@
 </head>
 
 <body class="dark-mode">
-
     <div class="container">
         <header class="quiz-header">
             <h1 class="quiz-title">Cybersecurity Quiz Challenge</h1>
@@ -27,7 +26,7 @@
         <div id="loading" class="loading">
             <div class="spinner"></div>
         </div>
-        
+
         <div class="rank-info">
             <h2>Your Security Ranking</h2>
             <div class="rank-progress">
@@ -42,8 +41,8 @@
 
         <div class="reset-section">
             <button id="reset-btn" class="reset-btn">Reset All Progress</button>
-            
-        <!-- Category Selection View -->
+        </div>
+
         <div id="categories-view" class="hidden">
             <div class="category-filter">
                 <button id="filter-all" class="filter-button active">All Categories</button>
@@ -75,37 +74,29 @@
                 <p>This cybersecurity quiz features 38 specialized categories covering everything from basic concepts to
                     advanced techniques. Each category focuses on a specific area of cybersecurity knowledge.</p>
                 <h4>Categories Include:</h4>
-                <div class="category-list">
-                    <ul>
-                        <li>Protecting Yourself First</li>
-                        <li>Common Cybersecurity Terms</li>
-                        <li>Understanding Windows & Linux</li>
-                        <li>Programming (Batch, PowerShell, Python)</li>
-                        <li>Cryptography & Hashing</li>
-                        <li>Web Security & Development</li>
-                        <li>Network Analysis & Scanning</li>
-                        <li>Pentesting Methodology</li>
-                        <li>And many more specialized topics</li>
-                    </ul>
-                </div>
+                <ul class="category-list">
+                    <li>Protecting Yourself First</li>
+                    <li>Common Cybersecurity Terms</li>
+                    <li>Understanding Windows & Linux</li>
+                    <li>Programming (Batch, PowerShell, Python)</li>
+                    <li>Cryptography & Hashing</li>
+                    <li>Web Security & Development</li>
+                    <li>Network Analysis & Scanning</li>
+                    <li>Pentesting Methodology</li>
+                    <li>And many more specialized topics</li>
+                </ul>
 
                 <h4>Question Format</h4>
                 <pre class="prompt-template">
-[
-    {
-        "question": "String containing the actual question",
-        "options": [
-            "String for option 0",
-            "String for option 1",
-            "String for option 2",
-            "String for option 3"
-        ],
-        "correctAnswer": Integer (index of the correct option, zero-based),
-        "explanation": "String providing explanation of the correct answer",
-        "weight": Integer (weight/points assigned to this question value between 0 and 3),
-        "category": "String indicating which category this question belongs to"
-    }
-]</pre>
+{
+    "question": "String containing the actual question",
+    "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+    "correctAnswer": 0,
+    "explanation": "String providing explanation of the correct answer",
+    "weight": 2,
+    "category": "Web Security"
+}
+                </pre>
                 <p>Questions are stored in separate JSON files for each category, making it easy to update and maintain
                     the quiz content.</p>
             </div>
