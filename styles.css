@@ -18,19 +18,29 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
 }
 
 /* Background Video */
 #bg-video {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    z-index: -1; /* Send video to background */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    #bg-video {
+        width: auto;
+        height: 100vh;
+    }
 }
 
 /* Overlay for better text contrast */
@@ -40,16 +50,19 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 800px;
     padding: 2rem;
     position: relative;
-    z-index: 1; /* Ensure content appears above the video */
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.8);
 }
 
 .quiz-header {
@@ -63,8 +76,9 @@ body {
 
 .quiz-title {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 255, 0, 0.8);
 }
 
 .stats-container {
