@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="dark-mode">
+<body>
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay"></div>
 
     <div class="container">
         <header class="quiz-header">
@@ -28,7 +34,7 @@
             <div class="spinner"></div>
         </div>
 
-                <div class="rank-info">
+        <div class="rank-info">
             <h2>Your Security Ranking</h2>
             <div class="rank-progress">
                 <div id="rank-progress-bar" class="rank-progress-bar" style="width: 0%"></div>
@@ -42,14 +48,11 @@
 
         <div class="reset-section">
             <button id="reset-btn" class="reset-btn">Reset All Progress</button>
-            
         </div>
-
 
         <!-- Category Selection View -->
         <div id="categories-view" class="hidden">
             <div class="category-filter">
-                
                 <button id="filter-all" class="filter-button active">All Categories</button>
                 <button id="filter-available" class="filter-button">Available</button>
                 <button id="filter-completed" class="filter-button">Completed</button>
@@ -73,7 +76,6 @@
             </div>
         </div>
 
-
         <div class="quiz-explanation-footer">
             <div class="explanation-container">
                 <h3>About This Quiz</h3>
@@ -96,21 +98,20 @@
 
                 <h4>Question Format</h4>
                 <pre class="prompt-template">
-[
-    {
-        "question": "String containing the actual question",
-        "options": [
-            "String for option 0",
-            "String for option 1",
-            "String for option 2",
-            "String for option 3"
-        ],
-        "correctAnswer": Integer (index of the correct option, zero-based),
-        "explanation": "String providing explanation of the correct answer",
-        "weight": Integer (weight/points assigned to this question value between 0 and 3),
-        "category": "String indicating which category this question belongs to"
-    }
-]</pre>
+{
+    "question": "String containing the actual question",
+    "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "String providing explanation of the correct answer",
+    "weight": 2,
+    "category": "Web Security"
+}
+                </pre>
                 <p>Questions are stored in separate JSON files for each category, making it easy to update and maintain
                     the quiz content.</p>
             </div>
@@ -119,5 +120,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
