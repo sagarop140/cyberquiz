@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is mobile security?",
+        "options": [
+            "A type of security only for mobile networks",
+            "Protection of mobile devices, data, and networks from threats",
+            "A security feature that locks mobile phones automatically",
+            "A firewall specifically designed for mobile devices"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mobile security refers to protecting mobile devices, data, and networks from threats such as malware, phishing, and unauthorized access. It includes security measures like encryption, authentication, and secure browsing.",
+        "weight": 1
+    },
+    {
+        "question": "Which of the following is a common mobile security threat?",
+        "options": [
+            "Phishing attacks",
+            "DDoS attacks",
+            "Man-in-the-middle attacks",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Phishing, DDoS attacks, and man-in-the-middle attacks are all common mobile security threats. Attackers use these methods to steal data, disrupt services, or gain unauthorized access to devices.",
+        "weight": 1
+    },
+    {
+        "question": "What is the primary purpose of mobile device encryption?",
+        "options": [
+            "To increase battery life",
+            "To protect data from unauthorized access",
+            "To make the device run faster",
+            "To allow remote access to the device"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Encryption protects sensitive data on mobile devices by converting it into unreadable ciphertext, making it accessible only to authorized users with decryption keys.",
+        "weight": 1
+    },
+    {
+        "question": "What is the most secure method for locking a smartphone?",
+        "options": [
+            "PIN code",
+            "Pattern lock",
+            "Fingerprint authentication",
+            "Face recognition"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Fingerprint authentication is generally more secure than PIN and pattern locks because it is unique to the user and harder to guess or replicate.",
+        "weight": 1
+    },
+    {
+        "question": "Which of the following is a best practice for securing mobile devices?",
+        "options": [
+            "Using strong passwords and biometric authentication",
+            "Installing apps from third-party stores",
+            "Disabling automatic software updates",
+            "Connecting to open Wi-Fi networks frequently"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Using strong passwords and biometric authentication enhances security by preventing unauthorized access. Other practices, like installing apps only from trusted sources and keeping software updated, also help in securing mobile devices.",
+        "weight": 1
+    },
+    {
+        "question": "What is the role of a VPN in mobile security?",
+        "options": [
+            "To improve battery life",
+            "To encrypt internet traffic and enhance privacy",
+            "To increase data usage",
+            "To boost Wi-Fi signal strength"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A VPN (Virtual Private Network) encrypts internet traffic, protecting user data from hackers, ISP tracking, and man-in-the-middle attacks, especially on public Wi-Fi networks.",
+        "weight": 1
+    },
+    {
+        "question": "What type of malware is specifically designed to target mobile devices?",
+        "options": [
+            "Trojan",
+            "Ransomware",
+            "Spyware",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Mobile devices can be infected with various types of malware, including Trojans, ransomware, and spyware, which compromise security and user data.",
+        "weight": 1
+    },
+    {
+        "question": "How can users detect a phishing attack on mobile devices?",
+        "options": [
+            "Receiving an email or message with urgent requests",
+            "A website asking for login credentials unexpectedly",
+            "Links with misspellings or unfamiliar domains",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Phishing attacks often use emails, messages, or fake websites to steal credentials. Users should check for urgent requests, suspicious links, and misspellings to identify potential phishing attempts.",
+        "weight": 1
+    },
+    {
+        "question": "Why should mobile apps be downloaded only from official app stores?",
+        "options": [
+            "They offer better discounts on apps",
+            "They verify apps for security and malware",
+            "They provide faster download speeds",
+            "They allow users to download apps without authentication"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Official app stores like Google Play and Apple App Store have security checks in place to minimize the risk of downloading malicious apps that may contain malware or compromise user data.",
+        "weight": 1
+    },
+    {
+        "question": "What is SIM swapping in mobile security?",
+        "options": [
+            "Switching between SIM cards for different networks",
+            "A social engineering attack to take over a victim’s phone number",
+            "Replacing an old SIM card with a new one",
+            "Using dual-SIM functionality on a phone"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SIM swapping is a fraud technique where an attacker tricks a mobile carrier into transferring a victim’s phone number to a new SIM card, allowing them to intercept messages and bypass two-factor authentication.",
+        "weight": 1
+    }
+]
