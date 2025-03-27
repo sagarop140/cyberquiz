@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
+<video class="video-background" autoplay loop muted>
+    <source src="custom/QUIZ BACKGROUND Video.mp4" type="video/mp4">
+</video>
+
+
 <body class="dark-mode">
 
     <div class="container">
@@ -28,6 +33,7 @@
             <div class="spinner"></div>
         </div>
 
+
         <div class="rank-info">
             <h2>Your Security Ranking</h2>
             <div class="rank-progress">
@@ -38,13 +44,13 @@
                 <span>Next: <strong id="next-rank">Script Kiddie</strong></span>
             </div>
             <p id="rank-description">You're just starting your cybersecurity journey. Keep learning!</p>
-        </div>
-
-        <div class="reset-section">
+            <div
+            class="reset-section">
             <button id="reset-btn" class="reset-btn">Reset All Progress</button>
         </div>
-
-        
+</div>
+        <br>
+   
         <!-- Category Selection View -->
         <div id="categories-view" class="hidden">
             <div class="category-filter">
@@ -71,6 +77,7 @@
             </div>
         </div>
 
+
         <div class="quiz-explanation-footer">
             <div class="explanation-container">
                 <h3>About This Quiz</h3>
@@ -90,6 +97,32 @@
                         <li>And many more specialized topics</li>
                     </ul>
                 </div>
+
+                <h4>Contact Us</h4>
+                <pre class="prompt-template">
+<p>Have questions, feedback, or suggestions? Reach out to us! 🚀</p>
+<div style="display: flex; gap: 18px; align-items: center;">
+    <a href="https://github.com/thexM0G" target="_blank">
+        <img src="custom/github-logo.png" alt="GitHub" width="30" height="32">
+    </a>
+    <a href="https://linkedin.com/in/lakshay-jain-906321329/" target="_blank">
+        <img src="custom/linkedin-logo.png.webp" alt="LinkedIn" width="45" height="45">
+    </a>
+    <a href="https://twitter.com/yourhandle" target="_blank">
+        <img src="custom/X-logo.png" alt="Twitter" width="30" height="32">
+    </a>
+    <a href="https://medium.com/@yourprofile" target="_blank">
+        <img src="custom/medium2.png" alt="Medium" width="30" height="32">
+    </a>
+    <a href="https://hacksecure.in" target="_blank">
+        <img src="custom/www.png" alt="Website" width="40" height="40">
+    </a>
+</pre>
+                <p>Questions are stored in separate JSON files for each category, making it easy to update and maintain
+                    the quiz content.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
