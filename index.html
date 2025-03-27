@@ -28,6 +28,23 @@
             <div class="spinner"></div>
         </div>
 
+        <div class="rank-info">
+            <h2>Your Security Ranking</h2>
+            <div class="rank-progress">
+                <div id="rank-progress-bar" class="rank-progress-bar" style="width: 0%"></div>
+            </div>
+            <div class="next-rank">
+                <span>Current: <strong id="current-rank">Newbie</strong></span>
+                <span>Next: <strong id="next-rank">Script Kiddie</strong></span>
+            </div>
+            <p id="rank-description">You're just starting your cybersecurity journey. Keep learning!</p>
+        </div>
+
+        <div class="reset-section">
+            <button id="reset-btn" class="reset-btn">Reset All Progress</button>
+        </div>
+
+        
         <!-- Category Selection View -->
         <div id="categories-view" class="hidden">
             <div class="category-filter">
@@ -54,22 +71,6 @@
             </div>
         </div>
 
-        <div class="rank-info">
-            <h2>Your Security Ranking</h2>
-            <div class="rank-progress">
-                <div id="rank-progress-bar" class="rank-progress-bar" style="width: 0%"></div>
-            </div>
-            <div class="next-rank">
-                <span>Current: <strong id="current-rank">Newbie</strong></span>
-                <span>Next: <strong id="next-rank">Script Kiddie</strong></span>
-            </div>
-            <p id="rank-description">You're just starting your cybersecurity journey. Keep learning!</p>
-        </div>
-
-        <div class="reset-section">
-            <button id="reset-btn" class="reset-btn">Reset All Progress</button>
-        </div>
-
         <div class="quiz-explanation-footer">
             <div class="explanation-container">
                 <h3>About This Quiz</h3>
@@ -89,29 +90,6 @@
                         <li>And many more specialized topics</li>
                     </ul>
                 </div>
-
-                <h4>Question Format</h4>
-                <pre class="prompt-template">
-[
-    {
-        "question": "String containing the actual question",
-        "options": [
-            "String for option 0",
-            "String for option 1",
-            "String for option 2",
-            "String for option 3"
-        ],
-        "correctAnswer": Integer (index of the correct option, zero-based),
-        "explanation": "String providing explanation of the correct answer",
-        "weight": Integer (weight/points assigned to this question value between 0 and 3),
-        "category": "String indicating which category this question belongs to"
-    }
-]</pre>
-                <p>Questions are stored in separate JSON files for each category, making it easy to update and maintain
-                    the quiz content.</p>
-            </div>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
