@@ -119,4 +119,558 @@
         "explanation": "SIM swapping is a fraud technique where an attacker tricks a mobile carrier into transferring a victim’s phone number to a new SIM card, allowing them to intercept messages and bypass two-factor authentication.",
         "weight": 1
     }
+
+    [
+    {
+        "question": "What is the primary goal of mobile security in cybersecurity?",
+        "options": [
+            "Increasing device battery life",
+            "Protecting devices and data from unauthorized access",
+            "Improving app download speeds",
+            "Enhancing screen resolution"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mobile security aims to safeguard devices, apps, and data from threats like malware, hacking, and data breaches.",
+        "weight": 3
+    },
+    {
+        "question": "What is phishing in the context of mobile security?",
+        "options": [
+            "A method to boost mobile signal strength",
+            "A hardware repair process",
+            "A social engineering attack to steal user credentials",
+            "A technique to update apps automatically"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Phishing uses fraudulent messages (e.g., SMS, email) to trick users into revealing sensitive information like passwords.",
+        "weight": 5
+    },
+    {
+        "question": "Which of the following is a common mobile malware type?",
+        "options": [
+            "Spreadsheet",
+            "Wallpaper",
+            "Trojan",
+            "Font package"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Trojans disguise themselves as legitimate apps to infiltrate devices and steal data or cause harm.",
+        "weight": 1
+    },
+    {
+        "question": "What does rooting an Android device allow?",
+        "options": [
+            "Faster internet speeds",
+            "Better camera quality",
+            "Increased storage space",
+            "Full administrative access to the system"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Rooting grants superuser privileges, allowing modifications to the OS but also exposing the device to risks.",
+        "weight": 4
+    },
+    {
+        "question": "In ethical hacking, what is penetration testing?",
+        "options": [
+            "Designing new mobile apps",
+            "Simulating attacks to find vulnerabilities",
+            "Repairing hardware issues",
+            "Optimizing device memory"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Penetration testing mimics real-world attacks to identify and fix security weaknesses in systems or apps.",
+        "weight": 2
+    },
+    {
+        "question": "What is HTTPS used for on mobile devices?",
+        "options": [
+            "Speeding up app loading times",
+            "Blocking pop-up ads",
+            "Encrypting data between the device and server",
+            "Improving call quality"
+        ],
+        "correctAnswer": 2,
+        "explanation": "HTTPS ensures secure communication by encrypting data, protecting it from interception.",
+        "weight": 3
+    },
+    {
+        "question": "What is a common sign of a compromised mobile device?",
+        "options": [
+            "Improved graphics performance",
+            "Unusual battery drain",
+            "Faster app updates",
+            "Louder speaker volume"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Malware or unauthorized processes often cause excessive battery usage as they run in the background.",
+        "weight": 5
+    },
+    {
+        "question": "What does MDM stand for in mobile security?",
+        "options": [
+            "Mobile Data Monitor",
+            "Mobile Device Management",
+            "Malware Detection Module",
+            "Memory Distribution Manager"
+        ],
+        "correctAnswer": 2,
+        "explanation": "MDM systems manage and secure mobile devices in an organization, enforcing policies like encryption.",
+        "weight": 1
+    },
+    {
+        "question": "Which tool is used for dynamic analysis in ethical hacking?",
+        "options": [
+            "Excel",
+            "Notepad",
+            "Frida",
+            "Paint"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Frida allows ethical hackers to inject code into running apps for real-time analysis and testing.",
+        "weight": 4
+    },
+    {
+        "question": "What is a side-channel attack?",
+        "options": [
+            "Sending spam emails",
+            "Overloading the CPU",
+            "Exploiting physical traits like power usage",
+            "Deleting system files"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Side-channel attacks use indirect data (e.g., power consumption) to infer sensitive information like encryption keys.",
+        "weight": 2
+    },
+    {
+        "question": "What is app sandboxing?",
+        "options": [
+            "Speeding up app execution",
+            "Isolating apps to limit their access",
+            "Merging multiple apps",
+            "Redesigning app interfaces"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sandboxing restricts apps to their own environment, preventing unauthorized access to other data or systems.",
+        "weight": 3
+    },
+    {
+        "question": "What is a rootkit?",
+        "options": [
+            "A tool to increase storage",
+            "Malware that hides and grants privileged access",
+            "A hardware upgrade",
+            "A system optimizer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rootkits conceal malicious activities and provide attackers with deep system access.",
+        "weight": 5
+    },
+    {
+        "question": "What does APK reverse engineering involve?",
+        "options": [
+            "Encrypting app data",
+            "Speeding up app installation",
+            "Decompiling an Android app to analyze code",
+            "Deleting unused apps"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Reverse engineering an APK reveals its source code, useful for finding vulnerabilities in ethical hacking.",
+        "weight": 1
+    },
+    {
+        "question": "Which is a biometric security feature?",
+        "options": [
+            "App notifications",
+            "Facial recognition",
+            "Screen brightness",
+            "Wi-Fi signal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Facial recognition uses unique physical traits for authentication, enhancing device security.",
+        "weight": 4
+    },
+    {
+        "question": "What is a MitM attack?",
+        "options": [
+            "Locking the device for ransom",
+            "Overheating the device",
+            "Intercepting communication between two parties",
+            "Flooding the device with ads"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A Man-in-the-Middle attack secretly intercepts and potentially alters data exchanged between a device and a server.",
+        "weight": 2
+    },
+    {
+        "question": "What is two-factor authentication (2FA)?",
+        "options": [
+            "Doubling app storage",
+            "Using two verification methods for security",
+            "Enhancing call volume",
+            "Speeding up downloads"
+        ],
+        "correctAnswer": 2,
+        "explanation": "2FA adds an extra layer of security by requiring two forms of ID, like a password and a code.",
+        "weight": 3
+    },
+    {
+        "question": "What is a common mobile OS vulnerability?",
+        "options": [
+            "High screen resolution",
+            "Outdated software",
+            "Too many apps",
+            "Loud speakers"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Outdated OS versions lack security patches, making them vulnerable to exploits.",
+        "weight": 5
+    },
+    {
+        "question": "What does a VPN do on a mobile device?",
+        "options": [
+            "Increases storage",
+            "Encrypts internet traffic",
+            "Boosts processor speed",
+            "Improves graphics"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A VPN (Virtual Private Network) encrypts data sent over the internet, protecting it from interception.",
+        "weight": 1
+    },
+    {
+        "question": "What is ransomware?",
+        "options": [
+            "A tool to speed up apps",
+            "Malware that locks data until payment is made",
+            "A hardware diagnostic tool",
+            "A system cleaner"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ransomware encrypts or locks a device, demanding a ransom to restore access.",
+        "weight": 4
+    },
+    {
+        "question": "What is the purpose of ethical hacking?",
+        "options": [
+            "To steal sensitive data",
+            "To improve system security legally",
+            "To slow down devices",
+            "To delete apps"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ethical hacking identifies vulnerabilities to strengthen security, with permission from the system owner.",
+        "weight": 2
+    },
+    {
+        "question": "What is a keylogger?",
+        "options": [
+            "A tool to unlock devices",
+            "Malware that records keystrokes",
+            "A hardware repair kit",
+            "A system optimizer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Keyloggers capture every keystroke to steal passwords or other sensitive information.",
+        "weight": 3
+    },
+    {
+        "question": "What does SSL stand for?",
+        "options": [
+            "System Speed Loader",
+            "Storage Saving Link",
+            "Secure Sockets Layer",
+            "Software Security Level"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SSL encrypts data between a mobile device and a server, ensuring secure communication.",
+        "weight": 5
+    },
+    {
+        "question": "What is a common Bluetooth vulnerability?",
+        "options": [
+            "Overheating",
+            "Bluejacking",
+            "Low battery",
+            "Slow downloads"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bluejacking exploits Bluetooth to send unsolicited messages or gain unauthorized access.",
+        "weight": 1
+    },
+    {
+        "question": "What is a sandbox escape attack?",
+        "options": [
+            "Speeding up app loading",
+            "Breaking out of an app’s isolated environment",
+            "Deleting app data",
+            "Encrypting app files"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A sandbox escape allows malware to access restricted areas outside an app’s sandbox.",
+        "weight": 4
+    },
+    {
+        "question": "What is Burp Suite used for in ethical hacking?",
+        "options": [
+            "Editing photos",
+            "Managing storage",
+            "Intercepting and analyzing web traffic",
+            "Playing music"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Burp Suite is a tool for testing web apps by intercepting and modifying HTTP/HTTPS traffic.",
+        "weight": 2
+    },
+    {
+        "question": "What is a zero-day exploit?",
+        "options": [
+            "A virus that deletes data",
+            "A vulnerability unknown to the vendor",
+            "A tool to speed up apps",
+            "A hardware failure"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Zero-day exploits target flaws before developers can patch them, making them dangerous.",
+        "weight": 3
+    },
+    {
+        "question": "What is a common sign of spyware on a mobile device?",
+        "options": [
+            "Faster charging",
+            "Unexpected data usage",
+            "Improved graphics",
+            "Louder ringtones"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Spyware secretly collects and sends data, often causing higher-than-normal data usage.",
+        "weight": 5
+    },
+    {
+        "question": "What does AES stand for in encryption?",
+        "options": [
+            "Automatic Encryption System",
+            "Advanced Encryption Standard",
+            "App Execution Speed",
+            "Access Entry Security"
+        ],
+        "correctAnswer": 2,
+        "explanation": "AES is a widely used encryption standard to secure data on mobile devices.",
+        "weight": 1
+    },
+    {
+        "question": "What is a buffer overflow attack?",
+        "options": [
+            "Speeding up memory access",
+            "Overwriting memory to execute malicious code",
+            "Deleting app cache",
+            "Encrypting memory"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A buffer overflow floods a program’s memory buffer, allowing attackers to inject harmful code.",
+        "weight": 4
+    },
+    {
+        "question": "What is the purpose of a security patch?",
+        "options": [
+            "To increase app size",
+            "To fix vulnerabilities in software",
+            "To improve graphics",
+            "To speed up hardware"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Security patches address flaws in software that could be exploited by attackers.",
+        "weight": 2
+    },
+    {
+        "question": "What is a SIM card attack?",
+        "options": [
+            "Overheating the SIM",
+            "Hijacking a phone number for fraud",
+            "Deleting SIM data",
+            "Speeding up calls"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SIM card attacks (e.g., SIM swapping) steal a user’s phone number to bypass authentication.",
+        "weight": 3
+    },
+    {
+        "question": "What is Metasploit used for in ethical hacking?",
+        "options": [
+            "Editing videos",
+            "Testing systems with pre-built exploits",
+            "Managing files",
+            "Playing games"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Metasploit is a framework for developing and executing exploits to test system security.",
+        "weight": 5
+    },
+    {
+        "question": "What is a common Wi-Fi attack?",
+        "options": [
+            "Screen burn-in",
+            "Evil Twin attack",
+            "Low signal strength",
+            "Slow downloads"
+        ],
+        "correctAnswer": 2,
+        "explanation": "An Evil Twin attack creates a fake Wi-Fi hotspot to steal data from connected devices.",
+        "weight": 1
+    },
+    {
+        "question": "What is code signing in mobile apps?",
+        "options": [
+            "Speeding up app code",
+            "Verifying an app’s authenticity with a digital signature",
+            "Encrypting app data",
+            "Deleting app bugs"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Code signing ensures an app comes from a trusted source and hasn’t been tampered with.",
+        "weight": 4
+    },
+    {
+        "question": "What is a DDoS attack on a mobile network?",
+        "options": [
+            "Overheating the device",
+            "Flooding a server with traffic to disrupt service",
+            "Deleting apps",
+            "Speeding up data"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A Distributed Denial-of-Service attack overwhelms a target with traffic, rendering it inaccessible.",
+        "weight": 2
+    },
+    {
+        "question": "What is a common ethical hacking certification?",
+        "options": [
+            "Graphic Design Certificate",
+            "CEH (Certified Ethical Hacker)",
+            "Hardware Repair License",
+            "App Development Diploma"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CEH is a recognized certification for professionals in ethical hacking and cybersecurity.",
+        "weight": 3
+    },
+    {
+        "question": "What is a mobile honeypot?",
+        "options": [
+            "A tool to speed up apps",
+            "A decoy system to attract attackers",
+            "A hardware upgrade",
+            "A data backup system"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A honeypot lures attackers to study their methods and improve security defenses.",
+        "weight": 5
+    },
+    {
+        "question": "What is a session hijacking attack?",
+        "options": [
+            "Speeding up login times",
+            "Stealing an active user session",
+            "Deleting session data",
+            "Encrypting sessions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Session hijacking takes over a user’s active session to gain unauthorized access.",
+        "weight": 1
+    },
+    {
+        "question": "What is the purpose of a mobile kill switch?",
+        "options": [
+            "To speed up the processor",
+            "To remotely disable a stolen device",
+            "To delete all apps",
+            "To improve battery life"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A kill switch allows users to lock or wipe a device remotely if it’s lost or stolen.",
+        "weight": 4
+    },
+    {
+        "question": "What is a common Android debugging tool?",
+        "options": [
+            "Photo Editor",
+            "ADB (Android Debug Bridge)",
+            "Music Player",
+            "File Explorer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ADB is used to interact with Android devices for debugging and testing, often in ethical hacking.",
+        "weight": 2
+    },
+    {
+        "question": "What is a worm in mobile security?",
+        "options": [
+            "A hardware defect",
+            "Self-replicating malware",
+            "A system optimizer",
+            "A graphics enhancer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Worms spread across devices without user interaction, often causing widespread damage.",
+        "weight": 3
+    },
+    {
+        "question": "What is a common iOS jailbreaking tool?",
+        "options": [
+            "iTunes",
+            "Checkra1n",
+            "Safari",
+            "iMovie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Checkra1n exploits hardware vulnerabilities to jailbreak iOS devices, bypassing restrictions.",
+        "weight": 5
+    },
+    {
+        "question": "What is a secure boot process?",
+        "options": [
+            "Speeding up boot time",
+            "Verifying OS integrity during startup",
+            "Deleting boot files",
+            "Encrypting boot data"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Secure boot ensures only trusted software loads during device startup, preventing malware.",
+        "weight": 1
+    },
+    {
+        "question": "What is a common mobile payment security feature?",
+        "options": [
+            "Screen recording",
+            "Tokenization",
+            "App caching",
+            "Volume control"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tokenization replaces sensitive payment data with unique tokens, enhancing security.",
+        "weight": 4
+    },
+    {
+        "question": "What is a privilege escalation attack?",
+        "options": [
+            "Speeding up app permissions",
+            "Gaining higher access rights than intended",
+            "Deleting user accounts",
+            "Encrypting permissions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Privilege escalation exploits flaws to gain unauthorized access to restricted functions.",
+        "weight": 2
+    },
+    {
+        "question": "What is a common mobile app testing tool?",
+        "options": [
+            "Video Editor",
+            "MobSF (Mobile Security Framework)",
+            "Music Mixer",
+            "Photo Filter"
+        ],
+        "correctAnswer": 2,
+        "explanation": "MobSF analyzes mobile apps for security vulnerabilities, widely used in ethical hacking.",
+        "weight": 3
+    }
 ]
